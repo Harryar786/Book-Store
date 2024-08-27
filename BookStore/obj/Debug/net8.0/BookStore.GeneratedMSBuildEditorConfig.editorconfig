@@ -26,8 +26,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Honey Arrora\source\repos\BookStore\Book-Store\BookStore
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Honey Arrora/source/repos/BookStore/Book-Store/BookStore/Views/Author/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEFkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honey Arrora/source/repos/BookStore/Book-Store/BookStore/Views/Author/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXEdldEFsbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honey Arrora/source/repos/BookStore/Book-Store/BookStore/Views/Author/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aG9yXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Honey Arrora/source/repos/BookStore/Book-Store/BookStore/Views/Genre/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honey Arrora/source/repos/BookStore/Book-Store/BookStore/Views/Genre/GetAll.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcR2V0QWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Honey Arrora/source/repos/BookStore/Book-Store/BookStore/Views/Genre/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcVXBkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Honey Arrora/source/repos/BookStore/Book-Store/BookStore/Views/Home/Index.cshtml]
