@@ -1,4 +1,4 @@
-﻿@model BookStore.Models.Domain.Genre
+﻿@model BookStore.Models.Domain.Publisher
 @{
     
 }
@@ -6,17 +6,16 @@
 
 
 <div class ="container pt-5">
-    <h3>Update Genre </h3>
+    <h3>Add Publisher </h3>
     <div class="row">
     <div class="col-md-6">
-        <form asp-action="Update" method="post">
-            <input type ="hidden" asp-for="Id" />
+        <form asp-action="Add" method="post">
             <div class="form-group">
-                <label asp-for="Name">Name *</label>
+                    <label asp-for="PublisherName">Name *</label>
                  <input type="text"   class="form-control" 
-                asp-for="Name"/>
-                <span asp-validation-for="Name" 
-                class="text-danger"></span>
+                asp-for="PublisherName"/>
+                    <span asp-validation-for="PublisherName"
+                          class="text-danger"></span>
             </div>
             @if (TempData["msg"] != null)
             {
@@ -25,7 +24,7 @@
             </div>
                 }    <div class="form-group pt-3">
                     <button type="submit" class="btn btn-dark"><i class="bi bi-save"></i>Save</button>
-                    <a href="/Genre/GetAll" class="btn btn-primary">
+                    <a href="/Publisher/GetAll" class="btn btn-primary">
                         <i class="bi bi-list"></i>
                         List
                     </a>
