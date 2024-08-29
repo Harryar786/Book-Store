@@ -1,35 +1,95 @@
 ﻿@model BookStore.Models.Domain.Publisher
 @{
-    
+    ViewData["Title"] = "Add Publisher";
 }
 
+<style>
+    .fade-in {
+        animation: fadeIn 0.5s ease-in;
+    }
+
+    .slide-up {
+        animation: slideUp 0.5s ease-out;
+    }
+
+    .btn-hover {
+        transition: all 0.3s ease;
+    }
+
+        .btn-hover:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+    @@keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @@keyframes slideUp {
+        from {
+            transform: translateY(20px);
+            opacity: 0;
+        }
+
+        to {
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+</style>
+
+<div class="container py-5 fade-in">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg">
+                <div class="card-body">
+                    <h2 class="card-title text-center mb-4">@ViewData["Title"]</h2>
+                    <form asp-action="Add" method="post" class="slide-up">
+                        <div class="mb-3">
+                            <label asp-for="PublisherName" class="form-label">Publisher Name *</label>
+                            <input type="text" class="form-control" asp-for="PublisherName" required>
+                            <span asp-validation-for="PublisherName" class="text-danger"></span>
+                        </div>
+
+                        @if (TempData["msg"] != null)
 
 
-<div class ="container pt-5">
-    <h3>Add Publisher </h3>
-    <div class="row">
-    <div class="col-md-6">
-        <form asp-action="Add" method="post">
-            <div class="form-group">
-                    <label asp-for="PublisherName">Name *</label>
-                 <input type="text"   class="form-control" 
-                asp-for="PublisherName"/>
-                    <span asp-validation-for="PublisherName"
-                          class="text-danger"></span>
-            </div>
-            @if (TempData["msg"] != null)
-            {
-                <div class="form-group">
-               @TempData["msg"]
-            </div>
-                }    <div class="form-group pt-3">
-                    <button type="submit" class="btn btn-dark"><i class="bi bi-save"></i>Save</button>
-                    <a href="/Publisher/GetAll" class="btn btn-primary">
-                        <i class="bi bi-list"></i>
-                        List
-                    </a>
+
+                        {
+                            <div class="alert alert-info alert-dismissible fade show" role="alert">
+                                @TempData["msg"]
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        }
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <button type="submit" class="btn btn-primary btn-hover">
+                                <i class="bi bi-save me-2"></i>Save
+                            </button>
+                            <a href="/Publisher/GetAll" class="btn btn-outline-secondary btn-hover">
+                                <i class="bi bi-list me-2"></i>List All Publishers
+                            </a>
+                        </div>
+                    </form>
                 </div>
-        </form>
+            </div>
         </div>
     </div>
-    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const form = document.querySelector('form');
+        const inputs = form.querySelectorAll('input, button, a');
+
+        inputs.forEach((input, index) => {
+            input.style.animation = `slideUp 0.5s ease-out ${index * 0.1}s`;
+        });
+    });
+</script>

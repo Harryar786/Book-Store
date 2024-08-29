@@ -1,53 +1,98 @@
 ﻿@model IEnumerable<BookStore.Models.Domain.Book>
 @{
-    
+    ViewData["Title"] = "Books";
 }
 
+<style>
+    .book-row {
+        transition: all 0.3s ease;
+    }
+    .book-row:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .btn-action {
+        transition: all 0.2s ease;
+    }
+    .btn-action:hover {
+        transform: translateY(-1px);
+    }
+    .fade-in {
+        animation: fadeIn 0.5s ease-in;
+    }
+    @@keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+    }
+</style>
 
-
-<div class ="container pt-3">
-    <div class=" row">
-        <div classs="col-md-12">
-            <a class="btn btn-dark" href="/Book/Add">+ Add more</a>
+<div class="container py-5 fade-in">
+    <div class="row mb-4 align-items-center">
+        <div class="col-md-6">
+            <h1 class="display-4 mb-0">@ViewData["Title"]</h1>
+        </div>
+        <div class="col-md-6 text-md-end">
+            <a class="btn btn-primary btn-lg btn-action" href="/Book/Add">
+                <i class="bi bi-plus-circle me-2"></i>Add New Book
+            </a>
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12">
-    <h3>Books </h3>
-    <table class="table table-stripped table-bordered table-dark">
-        <thead>
-            <tr>
-                        <th>Title</th>
-                        <th>Genre</th>
-                        <th>Isbn</th>
-                        <th>Total Pages</th>
-                        <th>Author</th>
-                        <th>Publisher</th>
-                        <th>Action</th>
-            </tr>
-        </thead>        
-        <tbody>
-            @foreach(var item in  Model)
-            {
-                <tr>
-                    <td>@item.Title</td>
-                    <td>@item.GenreName</td>
-                            <td>@item.Isbn</td>
-                            <td>@item.TotalPages</td>
-                            <td>@item.AuthorName</td>
-                            <td>@item.PublisherName</td>
-                    <td>
-                                <a class="btn btn-success" href="/Book/Update?id=@item.Id"><i class="bi bi-pen"></i>Edit</a>
-                                <a class="btn btn-danger" onclick="return window.confirm('Are You sure?')" href="/Book/Delete?id=@item.Id"><i class="bi bi-trash"></i>Delete</a>
 
-
-                    </td>
-                </tr>
-            
-            }
-        </tbody>
-        </table>
+    <div class="card shadow-lg">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>ISBN</th>
+                            <th>Pages</th>
+                            <th>Author</th>
+                            <th>Publisher</th>
+                            <th class="text-center">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model)
+                        {
+                            <tr class="book-row">
+                                <td>@item.Title</td>
+                                <td>@item.GenreName</td>
+                                <td>@item.Isbn</td>
+                                <td>@item.TotalPages</td>
+                                <td>@item.AuthorName</td>
+                                <td>@item.PublisherName</td>
+                                <td class="text-center">
+                                    <a class="btn btn-sm btn-outline-primary me-2 btn-action" href="/Book/Update?id=@item.Id">
+                                        <i class="bi bi-pencil me-1"></i>Edit
+                                    </a>
+                                    <a class="btn btn-sm btn-outline-danger btn-action" href="/Book/Delete?id=@item.Id"
+                                       onclick="return confirmDelete(event, '@item.Title')">
+                                        <i class="bi bi-trash me-1"></i>Delete
+                                    </a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 </div>
 
-    </div>
-    </div>
+<script>
+    function confirmDelete(event, bookTitle) {
+        event.preventDefault();
+        if (confirm(`Are you sure you want to delete the book "${bookTitle}"?`)) {
+            window.location.href = event.target.href;
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+        const rows = document.querySelectorAll('.book-row');
+        rows.forEach((row, index) => {
+            row.style.animation = `fadeIn 0.5s ease-in ${index * 0.1}s`;
+        });
+    });
+</script>
