@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\book\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\book\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\genre\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\genre\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\bookstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\bookstore.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\genre\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\genre\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\models\\domain\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\models\\domain\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\genre\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\genre\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\book\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\book\\getall.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|solutionrelative:bookstore\\views\\book\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{851C9311-B49A-44CB-948F-77730F1D4AEC}|BookStore\\BookStore.csproj|c:\\users\\honey arrora\\source\\repos\\bookstore\\book-store\\bookstore\\views\\genre\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -38,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -53,21 +81,103 @@
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\appsettings.json",
+              "RelativeDocumentMoniker": "BookStore\\appsettings.json",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\appsettings.json",
+              "RelativeToolTip": "BookStore\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-30T08:13:51.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T07:57:40.791Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Models\\Domain\\DatabaseContext.cs",
+              "RelativeDocumentMoniker": "BookStore\\Models\\Domain\\DatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Models\\Domain\\DatabaseContext.cs",
+              "RelativeToolTip": "BookStore\\Models\\Domain\\DatabaseContext.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAzwBcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T10:12:15.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Program.cs",
+              "RelativeDocumentMoniker": "BookStore\\Program.cs",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Program.cs",
+              "RelativeToolTip": "BookStore\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T10:06:32.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-30T07:56:38.259Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "BookStore",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\BookStore.csproj",
+              "RelativeDocumentMoniker": "BookStore\\BookStore.csproj",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\BookStore.csproj",
+              "RelativeToolTip": "BookStore\\BookStore.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-08-30T07:41:12.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "GetAll.cshtml",
               "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Book\\GetAll.cshtml",
               "RelativeDocumentMoniker": "BookStore\\Views\\Book\\GetAll.cshtml",
               "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Book\\GetAll.cshtml",
               "RelativeToolTip": "BookStore\\Views\\Book\\GetAll.cshtml",
-              "ViewState": "AQIAAIwAAAAAAAAAAAAswDUAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADUAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-28T13:02:27.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "Add.cshtml",
               "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Book\\Add.cshtml",
               "RelativeDocumentMoniker": "BookStore\\Views\\Book\\Add.cshtml",
@@ -81,19 +191,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Genre\\Add.cshtml",
+              "RelativeDocumentMoniker": "BookStore\\Views\\Genre\\Add.cshtml",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Genre\\Add.cshtml",
+              "RelativeToolTip": "BookStore\\Views\\Genre\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-28T10:56:55.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "BookStore\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\appsettings.Development.json",
+              "RelativeToolTip": "BookStore\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-30T08:14:03.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GetAll.cshtml",
               "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Genre\\GetAll.cshtml",
               "RelativeDocumentMoniker": "BookStore\\Views\\Genre\\GetAll.cshtml",
               "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Genre\\GetAll.cshtml",
               "RelativeToolTip": "BookStore\\Views\\Genre\\GetAll.cshtml",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAHUAAAAJAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAIBJwCMAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-08-28T10:57:33.787Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Genre\\Update.cshtml",
               "RelativeDocumentMoniker": "BookStore\\Views\\Genre\\Update.cshtml",
@@ -106,20 +242,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Genre\\Add.cshtml",
-              "RelativeDocumentMoniker": "BookStore\\Views\\Genre\\Add.cshtml",
-              "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Views\\Genre\\Add.cshtml",
-              "RelativeToolTip": "BookStore\\Views\\Genre\\Add.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-28T10:56:55.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "GenreController.cs",
               "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Controllers\\GenreController.cs",
               "RelativeDocumentMoniker": "BookStore\\Controllers\\GenreController.cs",
@@ -127,17 +250,18 @@
               "RelativeToolTip": "BookStore\\Controllers\\GenreController.cs",
               "ViewState": "AQIAAC4AAAAAAAAAAAAIwEIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T10:56:47.129Z"
+              "WhenOpened": "2024-08-28T10:56:47.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "AuthorController.cs",
               "DocumentMoniker": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "BookStore\\Controllers\\AuthorController.cs",
               "ToolTip": "C:\\Users\\Honey Arrora\\source\\repos\\BookStore\\Book-Store\\BookStore\\Controllers\\AuthorController.cs",
               "RelativeToolTip": "BookStore\\Controllers\\AuthorController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAgAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T08:11:28.805Z",
               "EditorCaption": ""

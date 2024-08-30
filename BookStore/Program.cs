@@ -2,6 +2,7 @@ using BookStore.Models.Domain;
 using BookStore.Repositories.Abstract;
 using BookStore.Repositories.Implementation;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DatabaseContext>(options
     => options.UseSqlServer(builder.Configuration.GetConnectionString("conn")));
 
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<DatabaseContext>();
+builder.Services.AddRazorPages();
 builder.Services.AddScoped<IGenreservice, GenreServices>();
 builder.Services.AddScoped<IAuthorService, AuthorService>();
 builder.Services.AddScoped<IPublisherService, PublisherService>();
@@ -28,11 +31,13 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();
 
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Genre}/{action=Add}/{id?}");
+app.MapRazorPages();
 
 app.Run();
